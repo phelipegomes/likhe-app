@@ -1,0 +1,35 @@
+<div id="topo-interno"></div>
+<main>
+  <h2 id="tlt-topo-interno">CONTATO</h2>
+  <hr class="hr-tlt-interno">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.405120464053!2d-46.70449508527335!3d-23.625658469854297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce50dc5bbcedab%3A0xbc2669cd30809a22!2sAv.+Dr.+Chucri+Zaidan%2C+1550+-+1914+-+Santo+Amaro%2C+S%C3%A3o+Paulo+-+SP!5e0!3m2!1spt-PT!2sbr!4v1519652948948" width="600" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <section class="infos">
+    <div class="contato-info">
+      <h4 class="tlt-contato"> Dados para contato</h4>
+      <p class="txt-contato">Para entrar em contato conosco e mandar seus comentários, elogios, sugestões ou críticas, entre em contato pelos dados abaixo ou preencha o formulário.</p>
+      <p>Av. Doutor Chucri Zaidan, 1550</p>
+      <p>Conjunto 1914 - Morumbi </p>
+      <p>(11) 2339-1040</p>
+      <p>(11) 98838-5444 </p>
+      <p>contato@likhe.com.br</p>
+    </div>
+    <div class="form-info">
+      <h4 class="tlt-contato"> Formulário para contato</h4>
+      <form id="formtxt" method="post" action="http://www.likhe.com.br/envia.php" accept-charset="iso-8859-1,utf-8" onsubmit="return validation();">
+        <fieldset class="dados-form">
+          <div class="flex-form">
+            <input id="nome" type="text" name="nome" placeholder="Nome:" required pattern="[A-Za-z ']{4,}" title="O nome precisa ter pelo menos 4 caracteres">
+
+            <input id="email" type="email" name="email" placeholder="E-mail:" required>
+
+            <input id="telefone" type="tel" name="telefone" placeholder="Telefone:" required>
+          </div>
+        </fieldset>
+        <fieldset class="msg-form">
+          <textarea name="mensagem" id="mensagem" rows="8" placeholder="Mensagem:"></textarea>
+          <button type="submit" id="button">Enviar</button>
+        </fieldset>
+      </form>
+    </div>
+  </section>
+</main>

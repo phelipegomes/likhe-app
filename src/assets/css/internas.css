@@ -1,0 +1,409 @@
+/* reset */
+
+/* A CLINICA */
+#topo-clinica{
+	background: url(../images/topo-clinica.jpg) no-repeat center;
+	background-size: cover;
+	height: 228px;
+}
+#topo-tratamentos{
+	background: url(../images/topo-tratamentos.jpg) no-repeat center;
+	background-size: cover;
+	height: 228px;
+}
+#topo-especialidades{
+	background: url(../images/topo-especialidades.jpg) no-repeat center;
+	background-size: cover;
+	height: 228px;
+}
+#topo-cirurgias{
+	background: url(../images/topo-cirurgias.jpg) no-repeat center;
+	background-size: cover;
+	height: 228px;
+}
+#topo-contato{
+	background: url(../images/topo-clinica.jpg) no-repeat center;
+	background-size: cover;
+	height: 228px;
+}
+#topo-rejuvenescimento{
+	background: url(../images/topo-rejuvenescimento.jpg) no-repeat center;
+	background-size: cover;
+	height: 228px;
+}
+#tlt-topo-interno{
+	font-family: 'Marvel', sans-serif;
+	color: #2cb9ca;
+	font-size: 1.9em;
+	text-align: center;
+	margin: 1em 0;
+}
+hr.hr-tlt-interno{
+	width: 170px;
+	border: 0;
+	background-color: #2cb9ca;
+	height: 0.2em;
+	margin: -1em auto 1em;
+}
+main p{
+	width: 90%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.9em;
+	color: #8a8a8a;
+	text-align: center;
+	margin: 1em auto;
+	max-width: 900px;
+}
+p.txt-profissionais{
+	font-size: 1.2em;
+}
+.profissionais{
+	width: 239px;
+	margin: 0 auto 1em;
+}
+.profissional{
+	width: 239px;
+}
+.info-prof{
+	background-color: #2cb9ca;
+	height: 370px;
+}
+.info-prof2{
+	background-color: #18919f;
+	height: 370px;
+}
+h3.nome-prof{
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-size: 1.2em;
+	padding: 1.5em 0 0 1em;
+	font-weight: bold;
+}
+p.desc-prof{
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-size: 0.7em;
+	padding: 0 0 1.6em 1.1em;
+	font-style: italic;
+	margin: 0;
+	text-align: left;
+}
+
+
+
+/* TRATAMENTOS */
+.hr-tlt-tratamentos{
+	border: 0;
+	height: 0.1em;
+	margin: 2em auto;
+	max-width: 1200px;
+	background-color: #2cb9ca;
+}
+.tlt-tratamento{
+	width: 80%;
+	max-width: 400px;
+	text-align: center;
+	border: 1px solid #2cb9ca;
+	font-size: 1.2em;
+	padding: 0.5em;
+	margin-top: -2.8em;
+	background-color: white;
+}
+
+.cont-tratamento{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto 2em;
+}
+.tratamento-flex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	max-width: 1200px;
+	margin-bottom: 3em;
+}
+
+.tipo-tratamento{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 100%;
+	margin: 1em;
+}
+
+.tipo-tratamento img{
+	width: 209px;
+	height: 220px;
+	margin: 0 auto;
+}
+h3.tlt-tipo-tratamento{
+	text-align: center;
+	font-family: 'Marvel', sans-serif;
+	color: #2cb9ca;
+	font-size: 1.9em;
+	margin-top: 0.2em;
+	line-height: 1em;
+}
+.chamada-tratamento p{
+	
+}
+p.lermais-tratamento{
+	margin-top: -0.5em;
+	font-weight: 700;
+	color: #505050;
+}
+p.lermais-tratamento:after{
+	content: ">";
+	color: #505050;
+	margin-left: 0.5em;
+}
+p.lermais-tratamento a{
+	color: #505050;
+	text-decoration: none;
+}
+
+/* paginas tratamento*/
+.img-tratamento{
+	width:100%;
+	margin: 0 auto;
+	text-align: center;
+}
+.img-tratamento img{
+	width: 100%;
+	max-width: 380px;
+}
+.txt-tratamento{
+	width: 100%;
+}
+.txt-tratamento h3{
+	font-family: 'Marvel', sans-serif;
+	color: #2cb9ca;
+	font-size: 1.9em;
+	margin: 0.7em auto 0;
+	text-align: center;
+}
+.box-rej{
+	max-width: 1000px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.box{
+	width: 90%;
+	margin: 0.4em auto;
+	border: 2px solid #2cb9ca;
+	text-align: center;
+	padding-top: 1em;
+	max-width: 450px;
+}
+.box h4{
+	font-family: 'Marvel', sans-serif;
+	color: #375364;
+	font-size: 1.4em;
+}
+
+/* pagina contato*/
+iframe{
+	width: 100%;
+	margin: 0 auto;
+}
+section.infos{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 1em auto 0;
+	text-align: center;
+	max-width: 1200px;
+}
+.contato-info{
+	width: 90%;
+}
+.infos p{
+	line-height: 0.7em;
+}
+p.txt-contato{
+	line-height: 1.8em;
+	margin: 1em 1em 2em;
+}
+h4.tlt-contato{
+	text-align: center;
+	font-family: 'Marvel', sans-serif;
+	color: #2cb9ca;
+	font-size: 1.9em;
+	margin-top: 0.2em;
+	line-height: 1em;
+}
+.form-info{
+	width: 100%;
+	margin: 0 auto;
+}
+
+form input{
+	background-color: #e6e6e6;
+    width: 90%;
+    margin: 0.4em auto;
+    height: 2em;
+	border: 0;
+	padding: 1.5em;
+}
+form textarea{
+    width: 90%;
+	margin: 0.4em auto;
+	background-color: #e6e6e6;
+	border: 0;
+	padding: 1.5em;
+}
+form button{
+    width: 90%;
+    background-color: white;
+    color: #2cb9ca;
+    padding: 1em;
+    font-size:0.8em;
+	border: 2px solid #2cb9ca;
+	margin: 0 auto 1em;
+}
+
+
+@media (min-width: 500px){
+	.profissionais{
+	width: 500px;
+	}
+	.chamada-tratamento-corp{
+		width: 50%;
+	}
+}
+@media (min-width: 720px){
+	.tipo-tratamento{
+		width: 50%;
+		margin: 1em 0;
+	}
+	.tratamento-flex{
+		justify-content: space-between;
+	}
+
+	.tipo-tratamento{
+		justify-content: space-between;
+		width: 50%;
+		margin: 1em 0;
+	}
+}
+@media (min-width: 760px){
+	.profissionais{
+	width: 760px;
+	}
+}
+@media (min-width: 900px){
+	.tratamento-item-flex{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content:space-between;
+		align-items: center;
+		
+		max-width: 1200px;
+		margin-top: 1em;
+		margin-bottom: 3em;
+	}
+	.img-tratamento{
+		width:45%;
+		margin: 2em auto 0;
+	}
+	.img-tratamento img{
+		width: 100%;
+		max-width: 380px;
+	}
+	.txt-tratamento{
+		width: 80%;
+		text-align: center;
+		margin: 0 auto;
+	}
+	
+	.infos p{
+		line-height: 0.9em;
+		text-align: left;
+	}
+	p.txt-contato{
+		line-height: 1.8em;
+		margin: 1em 1em 2em;
+	}
+	h4.tlt-contato{
+		text-align:left;
+		padding:0 0.4em;
+	}
+	.contato-info{
+		width:30%;
+	}
+	.form-info{
+		width: 70%;
+		margin: 0 auto;
+	}
+	.flex-form{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		width: 100%;
+	}
+	form input{
+		width: 30%;
+	}
+	form textarea{
+		width: 97%;
+		height:175px;
+	}
+	form button{
+		width: 97%;
+	}
+	
+}
+
+@media (min-width: 940px){
+	.profissionais{
+	width: 940px;
+	}
+}
+@media (min-width:1024px){
+	
+	.tipo-tratamento img{
+		margin: 0.6em 0 0 1em;
+	}
+	.chamada-tratamento{
+		width: 270px;
+	}
+	.chamada-tratamento h3{
+		text-align: left;
+	}
+	.chamada-tratamento p{
+		text-align: left;
+		margin: 0.9em 0 0 0;
+	}
+	
+}
+@media (min-width:1080px){
+	
+	.tipo-tratamento img{
+		margin: 0.5em 0 0 1em;
+	}
+	.chamada-tratamento{
+		width: 290px;
+	}
+	.chamada-tratamento h3{
+		text-align: left;
+	}
+	.chamada-tratamento p{
+		text-align: left;
+		margin: 0.9em 0 0 0;
+	}
+}
+@media (min-width: 1200px){
+	.profissionais{
+	width: 1200px;
+	}
+	.chamada-tratamento{
+		width: 360px;
+	}
+	.chamada-tratamento-corp{
+		width: 50%;
+	}
+	
+}
