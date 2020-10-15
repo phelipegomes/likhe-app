@@ -1,0 +1,224 @@
+
+/* MENU */
+@media (max-width: 799px){
+	.menu{
+		background-color: #2cb9ca;
+		width: 90%;
+		height: 40px;
+		padding: 0.4em;
+		margin: 0 auto;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+	}
+    .menu-abrir{
+		background: none;
+		float: left;
+		width: 30px;
+		border: 0;
+		margin-left: 1em;
+    }
+	.icon-menu{
+		font-size: 1.5em;
+		color: white;
+		background-color: #2cb9ca;
+		border: 0;
+	}
+	h2.logotipo-menu{
+		width: 100%;
+		text-align: center;
+		margin-bottom: 1em;
+	}
+	h2.logotipo-menu img{
+		width: 60%;
+	}
+	.menu-fechar{
+		background: #2cb9ca;
+		text-align: center;
+		width: 35px;
+		height: 35px;
+		-webkit-border-radius: 15px;
+		-moz-border-radius: 15px;
+		border-radius: 15px;
+	}
+	.icon-cross{
+		margin: ;
+		font-size: 1.1em;
+		color: white;
+	}
+	
+    .barra-nav {
+        background: white;
+        padding: 1em;
+        margin:0;
+		height: 100%;
+        width: 90%;
+        max-width: 320px;
+		position: fixed;
+        z-index: 2;
+        top: 0;
+        left: -90%;
+		transition: left 0.3s ease-out;
+    }
+    .menu-ativo 
+    .barra-nav {
+        left: 0;
+    }
+	.menu-principal{
+		width: 100%;
+		position: relative;
+		z-index: 4;
+	}
+    .menu-principal li {
+		text-align: center;
+        padding: 0.4em 0;
+        width: 100%;
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-size: 1.4em;
+    }
+    .menu-principal li a {
+       text-decoration: none;
+        color: #2cb9ca;
+    }
+    .menu-principal li a:hover,
+    .menu-principal li a:focus{
+     	color: #2cb9ca;
+    }
+	.menu-ativo:after {
+        content: "";
+        display: block;
+		position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+		z-index: 1;
+        background: rgba(0,0,0,0.5);
+    }
+	.tel-menu{
+		width: 90%;
+		margin: 0 auto;
+		margin-top: 1em;
+		display: flex;
+		justify-content: flex-start;
+		padding: 1em;
+		-webkit-border-radius: 15px;
+		-moz-border-radius: 15px;
+		border-radius: 15px;
+		background: #2cb9ca;
+		-webkit-box-shadow: 3px 3px 1px rgba(0,0,0,0.3); 
+		-moz-box-shadow: 3px 3px 1px rgba(0,0,0,0.3); 
+		box-shadow: 3px 3px 1px rgba(0,0,0,0.3); 
+	}
+	.icon-phone{
+		width: 25%;
+		color: black;
+		margin-right: 0.5em;
+		text-align: right;
+		font-size: 1.5em;
+		padding-top:0.3em;
+		color:white; 
+	}
+	.numeros-menu{
+		font-family: 'Open Sans', sans-serif;
+		width: 70%;
+		color: white;
+	}
+	
+	
+    
+	ul.redes-sociais{
+		float: right;
+		margin-right: 1em;
+		display: flex;
+		justify-content:space-between;
+		align-items: center;
+		text-align: right;
+		width: 100px;
+	}
+	ul.redes-sociais li a{
+		color: white;
+		text-decoration: none;
+		font-size: 1.5em;
+
+	}
+}
+
+    @media not all and (max-width: 799px) {
+        .menu-abrir,
+        .menu-fechar,
+		.tel-menu,
+		h2.logotipo-menu{
+        display: none;
+    }    
+}
+
+
+
+
+
+@media (min-width: 799px){
+	
+	.menu{
+		background-color: #2cb9ca;
+		width: 90%;
+		height: 50px;
+		z-index:1;
+		padding: 0.4em;
+		margin: 0 auto;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		-webkit-box-shadow: 1px 3px 1px rgba(0,0,0,0.2); 
+		-moz-box-shadow: 1px 3px 1px rgba(0,0,0,0.2); 
+		box-shadow: 1px 3px 1px rgba(0,0,0,0.2);
+		text-align: center;
+		max-width: 1200px;
+	}
+	
+	.menu-principal li {
+        display: inline-block;
+		font-family: 'Open Sans Condensed', sans-serif;
+        font-size:1.2em;
+		padding: 0.1em 0.5em;
+		margin-top: 0.3em;
+    }
+    .menu-principal li a {
+       text-decoration: none;
+        color: white;
+		padding: 0.1em 0.5em;
+    }
+	.menu-principal li a.btn-active{
+		color: #2cb9ca;
+		background: white;
+	}
+    .menu-principal li a:hover,
+        .menu-principal li a:focus{
+        color: #2cb9ca;
+		background: white;
+    }
+	
+    ul.redes-sociais{
+        display: none;
+	}
+   
+}
+
+
+@media (min-width: 800px){
+   .menu{
+	   position: relative;
+	   z-index: 1;
+	   -webkit-box-shadow: 1px 3px 1px rgba(0,0,0,0.2); 
+	   -moz-box-shadow: 1px 3px 1px rgba(0,0,0,0.2); 
+	   box-shadow: 1px 3px 1px rgba(0,0,0,0.2);
+	}
+   
+}
+
+
+@media (min-width: 1280px){
+
+}
+
